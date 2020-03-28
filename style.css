@@ -1,0 +1,59 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+  }
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .nav {
+    text-align: center;
+    background-color: rgb(211, 211, 211);
+    flex-wrap: wrap;
+    float: right;
+    padding-right: 4em;
+    padding-left: 5em;
+
+
+  }
+
+  .row {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    float: right;
+    padding-right: 4em;
+    padding: 5.2em;
+}
+  
+.main {
+    text-align: center;
+    text-size-adjust: 2em;
+    text-decoration: rgb(255, 255, 255);
+    background-color: rgb(13, 66, 116);
+    flex-wrap: wrap;
+    float: center;
+    
+}
+
+.button {
+    transition-duration: 0.4s;
+ }
+      
+ .button:hover {
+    background-color: rgb(230, 42, 18);
+    color: white;
+      }
